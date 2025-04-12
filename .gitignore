@@ -1,0 +1,13 @@
+# Node modules
+/node_modules
+
+/data
+
+# Variáveis de ambiente
+.env
+
+# Pastas de arquivos gerados/local
+/backend/boletos_divididos
+/backend/data
+/backend/relatorios
+/uploads
