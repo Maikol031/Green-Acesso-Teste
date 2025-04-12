@@ -27,7 +27,7 @@ API Node.js desenvolvida com TypeScript, TypeORM e MySQL. Esta aplicação geren
 O banco de dados é iniciado via Docker. Siga os passos abaixo:
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ````
 
 ## 📦 Instalando dependências
