@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "typeorm": "typeorm-ts-node-commonjs"
+    "typeorm:run": "npx tsx node_modules/typeorm/cli.js migration:run -d src/data-source.ts"
   },
   "keywords": [],
   "author": "",
