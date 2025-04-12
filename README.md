@@ -27,28 +27,29 @@ API Node.js desenvolvida com TypeScript, TypeORM e MySQL. Esta aplicação geren
 O banco de dados é iniciado via Docker. Siga os passos abaixo:
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ````
 
-##📦 Instalando dependências
+## 📦 Instalando dependências
 Após clonar o repositório, instale as dependências com:
 
 ````bash
 npm install
 ````
 
-##🧱 Executando as migrations
+## 🧱 Executando as migrations
 ````bash
 npm run typeorm:run
 ````
 
-##🏁 Iniciando a aplicação
+## 🏁 Iniciando a aplicação
 `````bash
 npm run dev
 `````
 
 
 📂 Organização dos Arquivos
+````
 .
 ├── boletos_divididos/       # PDFs gerados individualmente por boleto
 ├── data/                    # Pasta auxiliar (dados locais, se aplicável)
@@ -77,11 +78,12 @@ npm run dev
 ├── package.json             # Configurações e scripts do projeto
 ├── package-lock.json        # Lockfile do NPM
 └── tsconfig.json            # Configurações do TypeScript
-
+````
 
 
 🧪 Testando a aplicação
 Após subir o backend, você pode usar o Postman ou Insomnia para testar os endpoints. Se quiser, publiquei a documentação da API aqui:
-🔗 [https://www.postman.com/maikolamaro/green-acesso/collection/tt01u27/api-green-acesso?action=share&creator=30347357&active-environment=30347357-0708a98b-6613-453d-afba-b5bfb7dbf0da]
+
+🔗 [Documentação API](https://www.postman.com/maikolamaro/green-acesso/collection/tt01u27/api-green-acesso?action=share&creator=30347357&active-environment=30347357-0708a98b-6613-453d-afba-b5bfb7dbf0da)
 
 
